@@ -1,0 +1,40 @@
+body,html{
+    margin:0%;
+    padding:0%;
+    background-color: lightpink;
+}
+.container1 h1{
+     font-weight: 200px; 
+    color: brown;
+    text-align: center;
+   font-size: 2rem;
+   margin-right: 60px;
+} 
+.container1 div{
+    width: 1000px;
+    color:blueviolet;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-weight: 100px;
+    font-size: 3rem;;
+}
+
+.container1 img{
+    padding-left: 15%;
+     padding-right: 5%; 
+    padding-top: 3%;
+    width: 1000px;
+    padding-bottom: 10%;
+} 
+@media screen and (min-width:480px) {
+    .container1 h1{
+        text-align: center;
+    }
+    
+} 
+@media screen and (max-width:600px){
+    .container1 h1{
+        text-align: center;
+    }
+}
